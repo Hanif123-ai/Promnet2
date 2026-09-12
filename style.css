@@ -1,0 +1,50 @@
+/* Mengatur warna latar belakang halaman */
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Mengatur kotak kartu di tengah */
+.kartu {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+}
+
+/* Mengatur warna dan ukuran judul */
+h1 {
+    color: #333333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Mengatur teks paragraf */
+p {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Mengatur tombol */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efek saat kursor menyentuh tombol */
+button:hover {
+    background-color: #0056b3;
+}
